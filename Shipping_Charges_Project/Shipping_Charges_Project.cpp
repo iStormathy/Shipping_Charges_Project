@@ -29,8 +29,7 @@ int main()
 			cout << "Destination too far, cannot ship.";
 		else
 		{
-			double finalPrice = rate*(trunc(ceil(distance) / 500) +1);
-			//"distance / 500" is truncated in order to prevent rollover into higher price bracket
+			double finalPrice = rate*(ceil(distance / 500));
 			cout << "Final Price: $" << fixed << setprecision(2) << finalPrice;
 		}
 	}
