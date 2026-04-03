@@ -34,4 +34,5 @@ int main()
 			cout << "Final Price: $" << fixed << setprecision(2) << finalPrice;
 		}
 	}
+	return 0;
 }
