@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Shipping_Charges_Project/Shipping_Charges_Project.vcxproj" Id="8307a492-5bd3-419c-a5be-6c31ef52ac50" />
+</Solution>
